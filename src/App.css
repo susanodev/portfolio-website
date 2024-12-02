@@ -7,27 +7,46 @@ body {
 }
 
 .App {
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 
 header {
-  background: #333;
+  background: #185ebb;
   color: #fff;
   padding: 1rem;
 }
 
-header h1 {
+header h1{
   margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 100px;
+}
+
+header h2{
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  font-size: xx-large;
 }
 
 header nav a {
+  font-size: 30px;
   color: #fff;
-  margin: 0 1rem;
+  padding: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
+  /* border: 2px solid #fff; */
+  border-radius: 100%;
 }
 
 header nav a:hover {
-  text-decoration: underline;
+  text-decoration:dotted;
+  background-color:#333;
+  transform: scale(2);
+  transition: 0.5s;
 }
 
 section {

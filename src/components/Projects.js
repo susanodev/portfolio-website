@@ -1,9 +1,9 @@
 import React from 'react';
-import './Projects.css';
+// import './Projects.css';
 
 function Projects() {
   const projectList = [
-    { title: 'Project 1', description: 'Description for project 1' },
+    { title: 'Web Vul Scan', description: '' },
     { title: 'Project 2', description: 'Description for project 2' },
     { title: 'Project 3', description: 'Description for project 3' },
   ];
